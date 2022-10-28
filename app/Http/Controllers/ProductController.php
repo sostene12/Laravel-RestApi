@@ -74,6 +74,7 @@ class ProductController extends Controller
      * Search for a name, starts with or end with.
      *
      * @param  str  $name
+     * @param  str  $description
      * @return \Illuminate\Http\Response
      */
     public function search($name)
